@@ -1,0 +1,27 @@
+<?php
+$jumlahuang = 2675250;
+$sisa1 = $jumlahuang%100000;
+$a = ($jumlahuang - $sisa1) / 100000;
+echo "Jumlah pecahan 100rb : ".$a. "<br />";
+
+$sisa2 = $sisa1%50000;
+$b = ($jumlahuang - $sisa2) / 50000;
+echo "Jumlah pecahan 50rb : ".$b. "<br />";
+
+$sisa3 = $sisa2%20000;
+$c = ($jumlahuang - $sisa3) / 20000;
+echo "Jumlah pecahan 20rb : ".$c. "<br />";
+
+$sisa4 = $sisa3%5000;
+$d = ($jumlahuang - $sisa4) / 5000;
+echo "Jumlah pecahan 5rb : ".$d. "<br />";
+
+$sisa5 = $sisa4%100;
+$e = ($jumlahuang - $sisa5) / 100;
+echo "Jumlah pecahan 100prk : ".$e. "<br />";
+
+$sisa6 = $sisa5%50;
+$f = ($jumlahuang - $sisa6) / 50;
+echo "Jumlah pecahan 50prk : ".$f. "<br />";
+
+?>
